@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.resume {
+    background: #fff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.info h4 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.info small {
+    color: #777;
+}
+
+.contact, .follow, .func, .skills-prog, .skills-soft, .interests {
+    margin-bottom: 20px;
+}
+
+.contact h3, .follow h3, .func h3, .skills-prog h3, .skills-soft h3, .interests h3 {
+    border-bottom: 2px solid #1e4181;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.contact .item, .follow .box a, .func .item, .skills-prog .item, .skills-soft .item, .interests .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact .item i, .follow .box a i, .func .item i, .skills-prog .item i, .skills-soft .item i, .interests .item i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.skills-bar {
+    background: #e0e0e0;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skills-bar .bar {
+    background: #76c7c0;
+    height: 100%;
+}
+
+.follow .box {
+    display: flex;
+    gap: 10px;
+}
+
+.follow .box a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 20px;
+}
+
+.follow .box a:hover {
+    color: #2980b9;
+}
+
+.about p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.func .item span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.func .item small {
+    display: block;
+    color: #777;
+}
+
+.func .item p {
+    margin-top: 5px;
+    color: #555;
+}
+
+.skills-prog .item span, .skills-soft .item span {
+    display: block;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.interests .item {
+    font-size: 18px;
+    color: #333;
+}
+
+.interests .item i {
+    margin-right: 8px;
+    color: #3498db;
+}
